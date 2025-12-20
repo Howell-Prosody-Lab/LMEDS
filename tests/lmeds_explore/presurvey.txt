@@ -1,0 +1,101 @@
+Gender:
+Textbox
+
+When were you born? (Month and Year):
+Textbox
+
+When someone asks you your race or ethnicity, what do you tell them?
+Textbox
+
+Do you consider yourself African American?
+Choice Yes, No
+
+Do you consider yourself Latino/a/e or Hispanic?
+Choice Yes, No
+
+Do you speak Spanish?
+Choice Yes, No, It's complicated
+
+Do you understand Spanish?
+Choice Yes, No, It's complicated
+
+Do you speak another language? What language?
+Textbox
+
+Have you ever been a student in an English as a Second Language (ESL) classroom?
+Choice Yes, No
+
+Do you have any problems with your hearing or vision?
+Textbox
+
+Do you have any speech problems?
+Textbox
+
+Country of birth:
+Choice United States, Other 
+Textbox
+
+<sublist>
+If United States, list city/state:
+Textbox
+
+If other, how old were you when you moved to the USA?
+Textbox
+</sublist>
+
+Current city and state of residence:
+Textbox
+
+Do you live with people who speak other languages?
+Choice Yes, No
+
+<sublist>
+If yes, who and which languages?
+Textbox
+</sublist>
+
+Have you ever studied any foreign languages?
+Choice Yes, No
+
+<sublist>
+If yes, which languages and for how long?
+Textbox
+</sublist>
+
+Have you ever lived in a country (> 4 weeks) where a different language than your native language is spoken?
+Choice Yes, No
+
+<sublist>
+If yes, which country and language?
+Textbox
+
+How old were you when you lived there?
+Textbox
+
+How long did you live there?
+Textbox
+
+Did you speak the language of the country while living there?
+Choice Yes, No
+</sublist>
+
+Have you had any musical training?
+Choice Yes, No
+
+<sublist>
+Which instrument and for how long?
+Textbox
+</sublist>
+
+Have you ever taken a linguistics course?
+Choice Yes, No
+
+<sublist>
+A phonetics course?
+Choice Yes, No
+
+A phonology course?
+Choice Yes, No
+</sublist>
+
+

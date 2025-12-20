@@ -1,0 +1,6 @@
+login,[],None,None,11:51.6,0;,[]
+text_page,[first_page,bindSubmitKeyIDList=space],None,None,0:5.5,1;,[]
+media_test,[audio,apples],1,None,0:10.2,2;,[]
+text_page,[speed_warning],None,None,3:11.6,3;,[]
+text_page,[remote_experiment_notice],None,None,0:18.8,4;,[]
+consent,[demo_consent],None,None,0:12.9,5;,[]
