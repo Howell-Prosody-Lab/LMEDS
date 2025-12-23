@@ -1,0 +1,30 @@
+*LMEDS_Demo
+login
+
+text_page first_page bindSubmitKeyIDList=space
+media_test audio apples
+
+consent consent_form
+
+text_page presurvey_instructions
+survey presurvey
+
+text_page boundary_and_prominence_mechanics_instructions
+text_page boundary_and_prominence_agreed_upon_instructions
+text_page demo_boundary_and_prominence
+boundary apples apples 2 -1 short_boundary_instr true minNumSelected=1
+prominence apples apples 2 -1 short_prominence_instr true minNumSelected=1
+text_page demo_boundary_and_prominence_after
+
+boundary 3000-p06-l-ff_ch1_utt000 3000-p06-l-ff_ch1_utt000 2 -1 short_boundary_instr true minNumSelected=1
+prominence 3000-p06-l-ff_ch1_utt000 3000-p06-l-ff_ch1_utt000 2 -1 short_prominence_instr true minNumSelected=1
+
+boundary 3000-p06-l-ff_ch1_utt001 3000-p06-l-ff_ch1_utt001 2 -1 short_boundary_instr true minNumSelected=1
+prominence 3000-p06-l-ff_ch1_utt001 3000-p06-l-ff_ch1_utt001 2 -1 short_prominence_instr true minNumSelected=1
+
+boundary 3000-p06-l-ff_ch1_utt002 3000-p06-l-ff_ch1_utt002 2 -1 short_boundary_instr true minNumSelected=1
+prominence 3000-p06-l-ff_ch1_utt002 3000-p06-l-ff_ch1_utt002 2 -1 short_prominence_instr true minNumSelected=1
+
+boundary_and_prominence 3000-p06-l-ff_ch1_utt003 3000-p06-l-ff_ch1_utt003 1 -1 short_boundary_instr short_prominence_instr true
+
+end

@@ -50,10 +50,16 @@ audio_list_instructions
 On the next page you'll listen to a list of audio files separated by a brief pause.
 
 ====================
-boundary_and_prominence_alternatives
+demo_boundary_and_prominence
 ====================
 
-Although LMEDS was originally developed for collecting RPT annotations such as in the previous pages, there are other ways that one can use LMEDS to collect prosody annotations, as shown with the next two pages.
+First we will start with a demo. Click Continue to try it out. Add at least one boundary, even if it's at the end of the sentence, and at least one prominence.
+
+====================
+demo_boundary_and_prominence_after
+====================
+
+Most people put one boundary, at the end of the sentence, and one prominence, on <em>apples.</em> But don't worry about getting it "right." We're after YOUR opinion. Click Continue to get started.
 
 ====================
 boundary_and_prominence_constrained_instructions
@@ -71,7 +77,7 @@ Experimental Procedure
 
 You will be annotating excerpts of recorded conversations.  Each page contains the transcript for the excerpt and may also contain the audio recording.  For each excerpt, you will complete two tasks.  First you will break the text into smaller sequences of words.  Second, you will mark certain words.<br /><br />
 
-In the first task, based on some criteria (see next page) you will select a word and a vertical bar will be appear after that word:<br /><br />
+In the first task, based on some criteria (see next page) you will select a word and a vertical bar will appear after that word:<br /><br />
 word word <b>word</b> | word word ...<br /><br /> 
 
 If you change your mind after selecting a word, just select it again and the bar will disappear. In each utterance, you will be able to select as many words that match the necessary criteria. When you have finished, click 'submit'. This will transition you to the next task. <br /><br />
@@ -82,48 +88,22 @@ word word <font color="red">word</font> word ...<br /><br />
 If you change your mind, just select the word again and it will revert back to black.   During this phase, you will see where you marked the boundaries from the earlier task. When you are finished click <b>submit</b> to move on to the next excerpt.
 
 ====================
-boundary_and_prominence_nonspecific_instructions
+boundary_and_prominence_agreed_upon_instructions
 ====================
 
 As instructed previously, for each audio file, you will conduct two tasks. <br /><br />
 
-In normal speech, speakers group words in a way that helps listeners interpret the utterance. <br /><br />
+In normal speech, speakers group words in a way that helps listeners interpret the utterance.<br /><br />
 
-In the <b>first task</b>, break the text into chunks that reflect this grouping. <br /><br />
+In the <b>first task</b>, select the places where you hear a break, discontinuity or disconnection in the speech stream, strong or subtle. These break the fluid speech stream into different segments. <br /><br />
 
-In normal speech, speakers pronounce some word or words in a sentence with more prominence than others. The prominent words are in a sense highlighted for the listener, and stand out from other non-prominent words.  <br /><br />
 
-In the <b>second task</b>, mark words that you hear as prominent in this way. <br /><br />
+In normal speech, speakers pronounce some word or words in a sentence with more prominence than others.<br /><br />
 
-There are <b>sixteen audio excerpts</b>.  Please use the second playback to review your work.  You will <b>not</b> be able to listen to the audio more than twice.
+In the <b>second task</b>, select the words that stand out in the speech stream by virtue of being louder, longer, more extreme in pitch, or more crisply articulated than other words in the same utterance.  <br /><br />
 
-====================
-boundary_and_prominence_randomized_instructions
-====================
 
-On the next few pages are randomized boundary and prominence pages.
-<br /><br />
-Mark the boundaries you hear based on pauses in the speech (there aren't
-really any pauses in these short recordings though) and mark the prominences
-based on the words you think stand out.
-
-====================
-boundary_and_prominence_with_limits
-====================
-
-The next few pages contain more prominence and boundary pages.  However,
-on these pages, you'll be limited in the number of items you can select.
-Specific instructions will be given for each page.
-
-====================
-fill_in_the_blank_instructions
-====================
-
-On the next page, please select the word that appears in the audio given.
-<br /><br />
-In LMEDS, it is possible to set a timer.  If the timer expires, the item is
-automatically marked as incomplete and LMEDS progresses to the next page.
-<b>The next page has a 10 second timer</b>.
+There are <b>twelve audio excerpts</b>. You will need to play each one at least twice. Please use the second playback to review your work.
 
 ====================
 first_page
@@ -134,24 +114,6 @@ Please read all instructions that appear throughout this experiment carefully.
 Do not skip or skim instructions.<br />
 First, you will take a demographics survey and fill out a consent form.<br />
 
-
-====================
-keyboard_shortcuts
-====================
-
-On the next page there is a boundary and prominence page followed by 
-a media choice page, as you have seen before.  However,
-these pages have been configured to allow interaction via a keyboard.
-Specific instructions will be given for each page.
-
-====================
-multingual_support
-====================
-
-Before continuing, note that LMEDS is multilingual. (translations provided by google translate).<br /><br />
-続行する前に、LMEDS推定は、多言語であることに注意<br /><br />
-Avant de continuer, notez que LMEDS est multilingue<br /><br />
-जारी रखने से पहले, LMEDS बहुभाषी है कि ध्यान दें<br /><br />
 
 ====================
 post_survey_instructions
@@ -168,92 +130,6 @@ On the next page you'll fill out a demographics page.  <br /><br />
 
 Note that you may skip as many items as you want.
 
-====================
-randomized_demo_introduction
-====================
-
-This is a short LMEDS sample experiment meant to demonstrate the randomization feature.
-<br /><br />
-Please read the user manual for more information about how to randomize the presentation
-order of stimuli to users.
-
-====================
-remote_experiment_notice
-====================
-
-Before you begin the following experiment, please take note of the following points.
-<br /><br />
-
-<b>1)</b> Please <b>read all instructions</b> that appear throughout this experiment carefully.  Do not skip or skim instructions.<br /><br />
-
-<b>2)</b> Please <b>wear headphones or earbuds</b> when listening to audio files.
-<br /><br />
-
-<b>3)</b> <b>You should be in a quiet room</b>, free from distraction for the duration of the experiment.  If there is significant background noise, such as in a cafe or other public area, you may have trouble listening to audio files and concentrating on the experiment.
-<br /><br />
-
-<b>4)</b> Please <b>silence or turn off your cell-phone</b> and other noise-making electronics.
-<br /><br />
-
-<b>5)</b> Please <b>close all other browser windows or tabs</b>--particularly those that issue auditory or visual alerts or status updates such as email providers or social networking websites.
-<br /><br />
-
-<b>6)</b> Unless instructed otherwise, please <b>do not perform other tasks</b> or otherwise stray from the current task while you are doing the experiment.
-<br /><br />
-
-<br />
-
-By clicking 'submit' you acknowledge that you will follow these to the best of your ability.
-
-====================
-same_different_instructions
-====================
-
-On the next page, you will hear two audio files.  Please press the appropriate button
-to indicate whether they are the same or different.
-
-====================
-same_different_randomized_instructions
-====================
-
-On the next few pages are a few same-different questions.  The order of the test items is randomized.
-
-====================
-sliders_in_surveys
-====================
-
-Sliders can also be used in surveys.
-
-====================
-speed_warning
-====================
-
-Your browser must be up-to-date and your internet speed must be fast to complete
-this task, which involves listening to large audio files.<br /><br />
-
-If you are on an old computer or have a slow internet connection, please release this
-HIT.
-
-====================
-video_ok
-====================
-
-LMEDS can also play use video.  Any pages shown with audio files can have the audio replaced with video, as demonstrated next.
-
-====================
-whats_new_in_2.3
-====================
-
-LMEDS 2.3 has several new features.  Showcased here are the new kinds of pages that can be crafted in LMEDS 2.3.
-These pages are included in the full demo, but for those just wanting to see the new stuff, this demo is for you.<br /><br />
-
-New Features<br /><br />
-
-<ul>
-<li>Video now supported with the same controls and functionality as audio</li>
-<li>Sliding scales are now a supported widget
-<li>New syllable-marking page (branch of prominence-marking pages)
-</ul>
 
 ------------------------------
 media_test
@@ -306,42 +182,47 @@ Do you consent to participate in this study?
 consent_title
 ====================
 
-Online Informed Consent
+Prospective Agreement Form<br />
+Prosodic Event Annotation and Detection in Three Varieties of English<br />
+STUDY #FY22-23-3000
+
 
 ====================
-demo_consent
+consent_form
 ====================
+We are asking you to take part in a research study being done by Jonathan Howell, a faculty member at Montclair State University. Being in this study is optional.<br /><br />
 
-<b>Investigators:</b>  Joe; Mary (University of Somewhere) <br /><br />
+<b>Study's Title:</b>  Prosodic Event Annotation and Detection in Three Varieties of English <br /><br />
 
-<b>Purpose of this research:</b> Just to show you how LMEDS works.<br /><br />
+<b>Why is this study being done?</b> The purpose of this study is to investigate the acoustics of English speech<br /><br />
 
-<b>What you will be expected to do:</b>  If you agree to participate, you'll perform a variety of tasks with simple instructions that involve listening to audio files responding to questions.
+<b>What you will be expected to do:</b>  If you agree to participate, you'll perform a variety of tasks with simple instructions that involve listening to audio files and responding to questions.
 
-<b>Your compensation:</b> There is no compensation of any kind for participating in this demonstration. <br /><br />
+<b>Your compensation:</b> There is no compensation of any kind for participating in this study. <br /><br />
 
-<b>Your right to confidentiality:</b>  Assume your responses are not confidential for the purposes of this demonstration.  Please don't enter any real data. <br /><br />
+<b>Risks:</b> The risks are no greater than those in ordinary life. <br /><br />
 
-<b>Your right to withdraw at any time:</b> Your participation in this demonstration is strictly voluntary.. <br /><br />
+<b>Benefits:</b> You may benefit from this study by learning about research on language and speech. You can ask after the experiment more details about what we’re trying to find out with our research.<br />
+Others may benefit from this study because advancement in understanding the acoustics of speech not only deepens our understanding of the human language capability, it also has implications in a wide range of areas, including language instruction, translation studies, speech therapy, improving comprehensibility of synthesized speech, and improving speech recognition systems.
+ <br /><br />
 
-<b>Benefits:</b> You will become more familiar with LMEDS' functionality. <br /><br />
+<b>Compensation:</b> To compensate you for the time you spend in this study, you will receive $25.   You are eligible for compensation even if you withdraw.  <br /><br />
 
 <b>Possible risks:</b>  To our knowledge there are no risks or discomforts involved in this research beyond those encountered in other everyday activities. <br /><br />
 
-<b>Dissemination:</b> Responses to this demo will not be presented or published in academic venues. <br /><br />
+<b>Who will know that you are in this study?</b> You will not be linked to any presentations. We will keep who you are confidential. Your data will be reported anonymously or in aggregate. <br /><br />
 
-<b>Your right to ask questions at any time:</b>  Please contact the author timmahrt@gmail.com if you have any questions about LMEDS.  <br /><br />
+<b>Do you have to be in the study?</b><br /> You do not have to be in this study. You are a volunteer! It is okay if you want to stop at any time and not be included in the study. You do not have to answer any questions you do not want to answer. You can leave the study at any time and will still receive the compensation. Your participation or non-participation in the study will have no effect on your standing as an MSU student.<br /><br />
+
+<b>Do you have any questions about this study?</b>  Please contact the author Dr. Jonathan Howell at 240E Conrad Schmitt Hall if you have any questions about this study.  <br /><br />
+
+<b>Do you have any questions about your rights as a research participant?</b> Phone or email the IRB Chair, Dr. Dana Levitt, at 973-655-2097 or reviewboard@montclair.edu<br /><br />
 
 <b>Giving consent to participate:</b> By digitally signing this consent form, you certify that you are 18 years of age or older, that you have read the above and understand it, that you have been given satisfactory answers to any questions about the research, and that you have been advised that you are free to withdraw your consent and to discontinue participation in the research at any time, without prejudice. <br /><br />
 
 Please print a copy of this consent form for your records, if you so desire. <br /><br />
 
 I have read and understand the above consent form, I certify that I am 18 years old or older and, by clicking the submit button to enter the survey, I indicate my willingness to voluntarily take part in the study.<br /><br />
-
-<u><b>TLDR Version:</b></u>
-
-This consent form is derived from one used in an actual experiment run using LMEDS.<br /><br />
-This is not a real study, there is no compensation, and your data will be saved but not looked at or used in any study.<br /><br />
 
 ====================
 dissent
@@ -377,29 +258,6 @@ memory_instruct
 
 Blaah
 
-------------------------------
-media_choice
-------------------------------
-
-====================
-different
-====================
-
-different
-
-====================
-neutral
-====================
-
-Neither
-
-====================
-one_play_two_response
-====================
-
-Same or different?<br />
-Press 'p' to play the audio; 'z' for the left response and 'm' for the right response.
-
 ====================
 prominence_point_instr
 ====================
@@ -419,20 +277,6 @@ same
 same
 
 ====================
-same_different_instr
-====================
-
-Are the two audio files the same or different?
-
-====================
-two_play_two_response
-====================
-
-Same or different?<br />
-Press 'q' for the left audio and 'p' for the right audio.\n<br />
-Press 'z' for the left response and 'm' for the right response.
-
-====================
 vnonprom
 ====================
 
@@ -443,16 +287,6 @@ vprom
 ====================
 
 Very prominent
-
-------------------------------
-fill_in_the_blank
-------------------------------
-
-====================
-fill_in_the_blank_instruct
-====================
-
-Please fill in the option that correctly completes this sentence.
 
 ====================
 three_option_validation
@@ -552,7 +386,7 @@ You have reached the end of this study. Thank you for your participation.
 <br /><br />
 If you're coming from Mechanical Turk, please enter the blue text into Mechanical Turk to register your completion of this experiment.
 <br /><br />
-<font color="blue">polar bear</font>
+<font color="blue">green tiger</font>
 <br /><br />
 Have a nice day!
 
@@ -593,10 +427,10 @@ boundary_and_prominence,boundary,prominence
 ------------------------------
 
 ====================
-nonspecific_boundary_instr
+short_boundary_instr
 ====================
 
-Mark a boundary between words <font color="red">that belong to different chunks</font>. The end counts!
+Select the places where you hear a break, discontinuity or disconnection in the speech stream, strong or subtle.
 
 ------------------------------
 lmeds_interface,login,login_bad_user_name
@@ -639,10 +473,10 @@ boundary_and_prominence,prominence,boundary
 ------------------------------
 
 ====================
-nonspecific_prominence_instr
+short_prominence_instr
 ====================
 
-Mark the words that the speaker <font color="blue">highlighted for the listener, to make them stand out</font>.
+Select the words that stand out in the speech stream by virtue of being louder, longer, more extreme in pitch, or more crisply articulated than other words in the same utterance.
 
 ------------------------------
 prominence,boundary_and_prominence
