@@ -37,7 +37,7 @@ pg2HTML = """
 formTemplate = """
 <div id='audio_hook'></div>
 <form class="submit" name="languageSurvey" method="POST">
-%(html)s
+
 
 <input TYPE="hidden" name="page" value="%(page)s">
 <input TYPE="hidden" name="pageNumber" value="%(pageNumber)d">
@@ -45,6 +45,7 @@ formTemplate = """
 <input TYPE="hidden" name="user_name" value="%(user_name)s">
 <input TYPE="hidden" name="num_items" value="%(num_items)d">
 <input TYPE="hidden" name="task_duration" id="task_duration" value="0">
+%(html)s
 %(audio_play_tracking_html)s
 <br /><br />
 %(submit_button_slot)s
