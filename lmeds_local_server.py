@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#!/usr/bin/env python
+>>>>>>> b8c12e10117049d10b1f45285c5d4b1feb499378
 '''
 This is the lmeds server.  Launch this from a terminal with the command line
 (cmd on windows; terminal, etc on os x or linux) via
@@ -31,9 +35,12 @@ server = HTTPServer(('127.0.0.1', 8123), handler)
 print("\nServer running!\n\n"
       "CLOSING THIS WINDOW WILL PREVENT PARTICIPANTS FROM SAVING DATA "
       "AND CONTINUING EXPERIMENT!!!\n\n" 
+<<<<<<< HEAD
       "To run an experiment session on this computer, visit:\n"
       "http://127.0.0.1:8123/cgi-bin/lmeds_explore.cgi\n\n"
       "(or on windows, rename the file to lmeds_explore.py and visit:\n"
       "http://127.0.0.1:8123/cgi-bin/lmeds_explore.py\n\n"
       "When all data collection is complete, you may safely close this window")
 server.serve_forever()
+=======
+>>>>>>> b8c12e10117049d10b1f45285c5d4b1feb499378

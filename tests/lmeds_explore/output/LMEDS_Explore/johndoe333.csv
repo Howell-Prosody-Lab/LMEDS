@@ -1,0 +1,16 @@
+login,[],None,None,1:1.4,0;,[]
+text_page,[first_page,bindSubmitKeyIDList=space],None,None,3:20.6,1;,[]
+media_test,[audio,apples],1,None,0:55.2,2;,[]
+consent,[demo_consent],None,None,7:17.0,3;,[]
+text_page,[presurvey_instructions],None,None,0:16.8,4;,[]
+survey,[presurvey],None,None,0:28.0,5;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+text_page,[boundary_and_prominence_mechanics_instructions],None,None,0:28.8,6;,[]
+text_page,[boundary_and_prominence_nonspecific_instructions],None,None,0:17.3,7;,[]
+boundary_and_prominence,[apples,apples,2,2,nonspecific_boundary_instr,nonspecific_prominence_instr,true],2,2,2:10.4,8;,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+text_page,[boundary_and_prominence_constrained_instructions],None,None,0:27.6,9;,[]
+boundary,[apples,apples,1,-1,nonspecific_boundary_instr,true],2,None,0:42.8,10;,0,0,0,0,0,0,0,0
+prominence,[apples,apples,1,-1,nonspecific_prominence_instr,true],1,None,0:39.5,11;,0,0,0,0,0,0,0,0
+text_page,[boundary_and_prominence_with_limits],None,None,2:51.2,12;,[]
+prominence,[apples,apples,-1,-1,prominence_at_least_two,true,minNumSelected=2],0,None,0:28.5,13;,1,0,0,0,0,0,0,1
+boundary,[apples,apples,-1,-1,boundary_at_most_one,true,maxNumSelected=1],0,None,0:39.4,14;,0,0,0,0,0,0,0,1
+boundary_and_prominence,[apples,apples,-1,-1,mark_one_boundary,mark_one_prominence,true,minNumSelected=1,maxNumSelected=1],0,0,0:49.6,15;,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
