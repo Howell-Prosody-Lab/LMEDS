@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 0.9501
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 0.9501
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.1801
+				text = "which"
+			intervals [3]:
+				xmin = 0.1801
+				xmax = 0.3401
+				text = "line"
+			intervals [4]:
+				xmin = 0.3401
+				xmax = 0.4001
+				text = "are"
+			intervals [5]:
+				xmin = 0.4001
+				xmax = 0.5501
+				text = "you"
+			intervals [6]:
+				xmin = 0.5501
+				xmax = 0.9501
+				text = "following"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 0.9501
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0301
+				text = "HH"
+			intervals [3]:
+				xmin = 0.0301
+				xmax = 0.0701
+				text = "W"
+			intervals [4]:
+				xmin = 0.0701
+				xmax = 0.1001
+				text = "IH1"
+			intervals [5]:
+				xmin = 0.1001
+				xmax = 0.1801
+				text = "CH"
+			intervals [6]:
+				xmin = 0.1801
+				xmax = 0.2201
+				text = "L"
+			intervals [7]:
+				xmin = 0.2201
+				xmax = 0.3001
+				text = "AY1"
+			intervals [8]:
+				xmin = 0.3001
+				xmax = 0.3401
+				text = "N"
+			intervals [9]:
+				xmin = 0.3401
+				xmax = 0.4001
+				text = "ER0"
+			intervals [10]:
+				xmin = 0.4001
+				xmax = 0.5001
+				text = "Y"
+			intervals [11]:
+				xmin = 0.5001
+				xmax = 0.5501
+				text = "UW1"
+			intervals [12]:
+				xmin = 0.5501
+				xmax = 0.6201
+				text = "F"
+			intervals [13]:
+				xmin = 0.6201
+				xmax = 0.6801
+				text = "AA1"
+			intervals [14]:
+				xmin = 0.6801
+				xmax = 0.7201
+				text = "L"
+			intervals [15]:
+				xmin = 0.7201
+				xmax = 0.7801
+				text = "OW0"
+			intervals [16]:
+				xmin = 0.7801
+				xmax = 0.8501
+				text = "IH0"
+			intervals [17]:
+				xmin = 0.8501
+				xmax = 0.9501
+				text = "NG"

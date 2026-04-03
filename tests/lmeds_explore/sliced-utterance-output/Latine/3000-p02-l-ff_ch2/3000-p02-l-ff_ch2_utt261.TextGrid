@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 0.9801
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "R - words"
+		xmin = 0.0
+		xmax = 0.9801
+		intervals: size = 5
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.4201
+				text = "yes"
+			intervals [3]:
+				xmin = 0.4201
+				xmax = 0.5301
+				text = "okay"
+			intervals [4]:
+				xmin = 0.5301
+				xmax = 0.5601
+				text = "i"
+			intervals [5]:
+				xmin = 0.5601
+				xmax = 0.9801
+				text = "think"
+	item [2]:
+		class = "IntervalTier"
+		name = "R - phones"
+		xmin = 0.0
+		xmax = 0.9801
+		intervals: size = 12
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.2301
+				text = "Y"
+			intervals [3]:
+				xmin = 0.2301
+				xmax = 0.4101
+				text = "EH1"
+			intervals [4]:
+				xmin = 0.4101
+				xmax = 0.4201
+				text = "S"
+			intervals [5]:
+				xmin = 0.4201
+				xmax = 0.4901
+				text = "OW2"
+			intervals [6]:
+				xmin = 0.4901
+				xmax = 0.5001
+				text = "K"
+			intervals [7]:
+				xmin = 0.5001
+				xmax = 0.5301
+				text = "EY1"
+			intervals [8]:
+				xmin = 0.5301
+				xmax = 0.5601
+				text = "AY1"
+			intervals [9]:
+				xmin = 0.5601
+				xmax = 0.8601
+				text = "TH"
+			intervals [10]:
+				xmin = 0.8601
+				xmax = 0.8901
+				text = "IH1"
+			intervals [11]:
+				xmin = 0.8901
+				xmax = 0.9501
+				text = "NG"
+			intervals [12]:
+				xmin = 0.9501
+				xmax = 0.9801
+				text = "K"

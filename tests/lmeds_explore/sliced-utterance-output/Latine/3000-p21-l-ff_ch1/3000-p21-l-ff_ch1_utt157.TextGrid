@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 0.9101
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 0.9101
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.2201
+				text = "yeah"
+			intervals [3]:
+				xmin = 0.2201
+				xmax = 0.2601
+				text = "i"
+			intervals [4]:
+				xmin = 0.2601
+				xmax = 0.4101
+				text = "got"
+			intervals [5]:
+				xmin = 0.4101
+				xmax = 0.4401
+				text = "a"
+			intervals [6]:
+				xmin = 0.4401
+				xmax = 0.6901
+				text = "totem"
+			intervals [7]:
+				xmin = 0.6901
+				xmax = 0.9101
+				text = "pole"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 0.9101
+		intervals: size = 16
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.1301
+				text = "Y"
+			intervals [3]:
+				xmin = 0.1301
+				xmax = 0.2201
+				text = "AE1"
+			intervals [4]:
+				xmin = 0.2201
+				xmax = 0.2601
+				text = "AY1"
+			intervals [5]:
+				xmin = 0.2601
+				xmax = 0.3101
+				text = "G"
+			intervals [6]:
+				xmin = 0.3101
+				xmax = 0.3701
+				text = "AA1"
+			intervals [7]:
+				xmin = 0.3701
+				xmax = 0.4101
+				text = "T"
+			intervals [8]:
+				xmin = 0.4101
+				xmax = 0.4401
+				text = "AH0"
+			intervals [9]:
+				xmin = 0.4401
+				xmax = 0.5501
+				text = "T"
+			intervals [10]:
+				xmin = 0.5501
+				xmax = 0.5901
+				text = "OW1"
+			intervals [11]:
+				xmin = 0.5901
+				xmax = 0.6301
+				text = "T"
+			intervals [12]:
+				xmin = 0.6301
+				xmax = 0.6601
+				text = "AH0"
+			intervals [13]:
+				xmin = 0.6601
+				xmax = 0.6901
+				text = "M"
+			intervals [14]:
+				xmin = 0.6901
+				xmax = 0.8101
+				text = "P"
+			intervals [15]:
+				xmin = 0.8101
+				xmax = 0.8401
+				text = "OW1"
+			intervals [16]:
+				xmin = 0.8401
+				xmax = 0.9101
+				text = "L"

@@ -1,0 +1,14 @@
+login,[],None,None,0:6.0,0;,[]
+text_page,[first_page,bindSubmitKeyIDList=space],None,None,0:1.9,1;,[]
+media_test,[audio,apples],1,None,0:2.7,2;,[]
+consent,[demo_consent],None,None,0:5.3,3;,[]
+text_page,[boundary_and_prominence_intro],None,None,0:1.8,4;,[]
+text_page,[boundary_instructions1],None,None,0:1.3,5;,[]
+text_page,[boundary_instructions2],None,None,0:2.0,6;,[]
+text_page,[prominence_instructions1],None,None,0:2.5,7;,[]
+text_page,[prominence_instructions2],None,None,0:2.7,8;,[]
+text_page,[example],None,None,0:1.4,9;,[]
+boundary_and_prominence,[apples,apples,2,-1,nonspecific_boundary_instr,nonspecific_prominence_instr,true,minNumSelected=1],2,2,0:21.6,10;,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+text_page,[post_example],None,None,0:2.1,11;,[]
+boundary_and_prominence,[3000-p02-l-ff_ch2_utt145,3000-p02-l-ff_ch2_utt145,2,-1,nonspecific_boundary_instr,nonspecific_prominence_instr,true,minNumSelected=1],2,2,0:20.3,12;,1,0,1,0,0,0,0,0,1,0,1,1
+text_page,[qualtrics],None,None,4:16.7,13;,[]

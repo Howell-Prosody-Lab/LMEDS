@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.7201
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.7201
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.1201
+				text = "all"
+			intervals [3]:
+				xmin = 0.1201
+				xmax = 0.3101
+				text = "right"
+			intervals [4]:
+				xmin = 0.3101
+				xmax = 0.7201
+				text = ""
+			intervals [5]:
+				xmin = 0.7201
+				xmax = 1.0601
+				text = "now"
+			intervals [6]:
+				xmin = 1.0601
+				xmax = 1.7201
+				text = "continue"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.7201
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0501
+				text = "AA1"
+			intervals [3]:
+				xmin = 0.0501
+				xmax = 0.1201
+				text = "L"
+			intervals [4]:
+				xmin = 0.1201
+				xmax = 0.1501
+				text = "R"
+			intervals [5]:
+				xmin = 0.1501
+				xmax = 0.2701
+				text = "AY1"
+			intervals [6]:
+				xmin = 0.2701
+				xmax = 0.3101
+				text = "T"
+			intervals [7]:
+				xmin = 0.3101
+				xmax = 0.7201
+				text = ""
+			intervals [8]:
+				xmin = 0.7201
+				xmax = 0.8201
+				text = "N"
+			intervals [9]:
+				xmin = 0.8201
+				xmax = 1.0601
+				text = "AW1"
+			intervals [10]:
+				xmin = 1.0601
+				xmax = 1.1501
+				text = "K"
+			intervals [11]:
+				xmin = 1.1501
+				xmax = 1.1901
+				text = "AH0"
+			intervals [12]:
+				xmin = 1.1901
+				xmax = 1.2701
+				text = "N"
+			intervals [13]:
+				xmin = 1.2701
+				xmax = 1.5901
+				text = "T"
+			intervals [14]:
+				xmin = 1.5901
+				xmax = 1.6301
+				text = "IH1"
+			intervals [15]:
+				xmin = 1.6301
+				xmax = 1.6601
+				text = "N"
+			intervals [16]:
+				xmin = 1.6601
+				xmax = 1.6901
+				text = "Y"
+			intervals [17]:
+				xmin = 1.6901
+				xmax = 1.7201
+				text = "UW0"

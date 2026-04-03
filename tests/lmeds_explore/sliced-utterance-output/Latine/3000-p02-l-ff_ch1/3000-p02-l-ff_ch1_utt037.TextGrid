@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.1901
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.1901
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0601
+				text = "wait"
+			intervals [3]:
+				xmin = 0.0601
+				xmax = 0.3201
+				text = "how"
+			intervals [4]:
+				xmin = 0.3201
+				xmax = 0.4001
+				text = "do"
+			intervals [5]:
+				xmin = 0.4001
+				xmax = 0.6501
+				text = "you"
+			intervals [6]:
+				xmin = 0.6501
+				xmax = 0.8501
+				text = "spell"
+			intervals [7]:
+				xmin = 0.8501
+				xmax = 1.1901
+				text = "that"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.1901
+		intervals: size = 16
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0301
+				text = "W"
+			intervals [3]:
+				xmin = 0.0301
+				xmax = 0.0601
+				text = "EY1"
+			intervals [4]:
+				xmin = 0.0601
+				xmax = 0.0901
+				text = "HH"
+			intervals [5]:
+				xmin = 0.0901
+				xmax = 0.3201
+				text = "AW1"
+			intervals [6]:
+				xmin = 0.3201
+				xmax = 0.3601
+				text = "D"
+			intervals [7]:
+				xmin = 0.3601
+				xmax = 0.4001
+				text = "UW1"
+			intervals [8]:
+				xmin = 0.4001
+				xmax = 0.4301
+				text = "Y"
+			intervals [9]:
+				xmin = 0.4301
+				xmax = 0.6501
+				text = "UW1"
+			intervals [10]:
+				xmin = 0.6501
+				xmax = 0.7201
+				text = "S"
+			intervals [11]:
+				xmin = 0.7201
+				xmax = 0.7501
+				text = "P"
+			intervals [12]:
+				xmin = 0.7501
+				xmax = 0.8101
+				text = "EH1"
+			intervals [13]:
+				xmin = 0.8101
+				xmax = 0.8501
+				text = "L"
+			intervals [14]:
+				xmin = 0.8501
+				xmax = 0.8901
+				text = "DH"
+			intervals [15]:
+				xmin = 0.8901
+				xmax = 1.0501
+				text = "AE1"
+			intervals [16]:
+				xmin = 1.0501
+				xmax = 1.1901
+				text = "T"
