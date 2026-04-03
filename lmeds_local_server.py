@@ -31,7 +31,7 @@ server = HTTPServer(('127.0.0.1', 8123), handler)
 print("\nServer running!\n\n"
       "CLOSING THIS WINDOW WILL PREVENT PARTICIPANTS FROM SAVING DATA "
       "AND CONTINUING EXPERIMENT!!!\n\n" 
-      "To run an experiment session on this computer visit:\n"
+      "To run an experiment session on this computer, visit:\n"
       "http://127.0.0.1:8123/cgi-bin/lmeds_explore.cgi\n\n"
       "(or on windows, rename the file to lmeds_explore.py and visit:\n"
       "http://127.0.0.1:8123/cgi-bin/lmeds_explore.py\n\n"
