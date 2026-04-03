@@ -31,3 +31,10 @@ var/
 
 *.project
 *.pydevproject
+
+lmeds_demo.cgi
+lmeds_randomized_demo.cgi
+lmeds_virtual_demo.py
+integration_tests/
+*_wtf.*
+*_gh.*
