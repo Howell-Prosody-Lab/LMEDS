@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.5801
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.5801
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.2101
+				text = "do"
+			intervals [3]:
+				xmin = 0.2101
+				xmax = 0.3701
+				text = "that"
+			intervals [4]:
+				xmin = 0.3701
+				xmax = 0.7801
+				text = "like"
+			intervals [5]:
+				xmin = 0.7801
+				xmax = 1.0101
+				text = "almost"
+			intervals [6]:
+				xmin = 1.0101
+				xmax = 1.1101
+				text = "like"
+			intervals [7]:
+				xmin = 1.1101
+				xmax = 1.5801
+				text = "square"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.5801
+		intervals: size = 22
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0501
+				text = "D"
+			intervals [3]:
+				xmin = 0.0501
+				xmax = 0.2101
+				text = "UW1"
+			intervals [4]:
+				xmin = 0.2101
+				xmax = 0.2401
+				text = "DH"
+			intervals [5]:
+				xmin = 0.2401
+				xmax = 0.3701
+				text = "AE1"
+			intervals [6]:
+				xmin = 0.3701
+				xmax = 0.6101
+				text = "L"
+			intervals [7]:
+				xmin = 0.6101
+				xmax = 0.7101
+				text = "AY1"
+			intervals [8]:
+				xmin = 0.7101
+				xmax = 0.7801
+				text = "K"
+			intervals [9]:
+				xmin = 0.7801
+				xmax = 0.8101
+				text = "AA1"
+			intervals [10]:
+				xmin = 0.8101
+				xmax = 0.8401
+				text = "L"
+			intervals [11]:
+				xmin = 0.8401
+				xmax = 0.9101
+				text = "M"
+			intervals [12]:
+				xmin = 0.9101
+				xmax = 0.9401
+				text = "OW2"
+			intervals [13]:
+				xmin = 0.9401
+				xmax = 0.9801
+				text = "S"
+			intervals [14]:
+				xmin = 0.9801
+				xmax = 1.0101
+				text = "T"
+			intervals [15]:
+				xmin = 1.0101
+				xmax = 1.0401
+				text = "L"
+			intervals [16]:
+				xmin = 1.0401
+				xmax = 1.0701
+				text = "AY1"
+			intervals [17]:
+				xmin = 1.0701
+				xmax = 1.1101
+				text = "K"
+			intervals [18]:
+				xmin = 1.1101
+				xmax = 1.2601
+				text = "S"
+			intervals [19]:
+				xmin = 1.2601
+				xmax = 1.3501
+				text = "K"
+			intervals [20]:
+				xmin = 1.3501
+				xmax = 1.3801
+				text = "W"
+			intervals [21]:
+				xmin = 1.3801
+				xmax = 1.5501
+				text = "EH1"
+			intervals [22]:
+				xmin = 1.5501
+				xmax = 1.5801
+				text = "R"

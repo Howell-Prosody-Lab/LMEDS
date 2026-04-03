@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.5201
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.5201
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.3801
+				text = "yes"
+			intervals [3]:
+				xmin = 0.3801
+				xmax = 0.4901
+				text = "it's"
+			intervals [4]:
+				xmin = 0.4901
+				xmax = 0.5501
+				text = "a"
+			intervals [5]:
+				xmin = 0.5501
+				xmax = 0.9301
+				text = "crest"
+			intervals [6]:
+				xmin = 0.9301
+				xmax = 1.5201
+				text = "falls"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.5201
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.1701
+				text = "Y"
+			intervals [3]:
+				xmin = 0.1701
+				xmax = 0.3101
+				text = "EH1"
+			intervals [4]:
+				xmin = 0.3101
+				xmax = 0.3801
+				text = "S"
+			intervals [5]:
+				xmin = 0.3801
+				xmax = 0.4301
+				text = "IH0"
+			intervals [6]:
+				xmin = 0.4301
+				xmax = 0.4601
+				text = "T"
+			intervals [7]:
+				xmin = 0.4601
+				xmax = 0.4901
+				text = "S"
+			intervals [8]:
+				xmin = 0.4901
+				xmax = 0.5501
+				text = "AH0"
+			intervals [9]:
+				xmin = 0.5501
+				xmax = 0.7001
+				text = "K"
+			intervals [10]:
+				xmin = 0.7001
+				xmax = 0.7401
+				text = "R"
+			intervals [11]:
+				xmin = 0.7401
+				xmax = 0.7901
+				text = "EH1"
+			intervals [12]:
+				xmin = 0.7901
+				xmax = 0.8901
+				text = "S"
+			intervals [13]:
+				xmin = 0.8901
+				xmax = 0.9301
+				text = "T"
+			intervals [14]:
+				xmin = 0.9301
+				xmax = 1.0001
+				text = "F"
+			intervals [15]:
+				xmin = 1.0001
+				xmax = 1.2001
+				text = "AO1"
+			intervals [16]:
+				xmin = 1.2001
+				xmax = 1.2901
+				text = "L"
+			intervals [17]:
+				xmin = 1.2901
+				xmax = 1.5201
+				text = "Z"

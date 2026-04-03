@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.3601
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.3601
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.2401
+				text = "there's"
+			intervals [3]:
+				xmin = 0.2401
+				xmax = 0.3201
+				text = "a"
+			intervals [4]:
+				xmin = 0.3201
+				xmax = 0.5401
+				text = "bit"
+			intervals [5]:
+				xmin = 0.5401
+				xmax = 0.7301
+				text = "under"
+			intervals [6]:
+				xmin = 0.7301
+				xmax = 1.3601
+				text = "eastlake"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.3601
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0801
+				text = "DH"
+			intervals [3]:
+				xmin = 0.0801
+				xmax = 0.1301
+				text = "EH1"
+			intervals [4]:
+				xmin = 0.1301
+				xmax = 0.1901
+				text = "R"
+			intervals [5]:
+				xmin = 0.1901
+				xmax = 0.2401
+				text = "Z"
+			intervals [6]:
+				xmin = 0.2401
+				xmax = 0.3201
+				text = "AH0"
+			intervals [7]:
+				xmin = 0.3201
+				xmax = 0.4301
+				text = "B"
+			intervals [8]:
+				xmin = 0.4301
+				xmax = 0.5401
+				text = "IH1"
+			intervals [9]:
+				xmin = 0.5401
+				xmax = 0.6201
+				text = "AH1"
+			intervals [10]:
+				xmin = 0.6201
+				xmax = 0.6501
+				text = "N"
+			intervals [11]:
+				xmin = 0.6501
+				xmax = 0.6901
+				text = "D"
+			intervals [12]:
+				xmin = 0.6901
+				xmax = 0.7301
+				text = "ER0"
+			intervals [13]:
+				xmin = 0.7301
+				xmax = 0.8901
+				text = "IY1"
+			intervals [14]:
+				xmin = 0.8901
+				xmax = 0.9801
+				text = "S"
+			intervals [15]:
+				xmin = 0.9801
+				xmax = 1.0301
+				text = "T"
+			intervals [16]:
+				xmin = 1.0301
+				xmax = 1.0701
+				text = "L"
+			intervals [17]:
+				xmin = 1.0701
+				xmax = 1.1901
+				text = "EY2"
+			intervals [18]:
+				xmin = 1.1901
+				xmax = 1.3601
+				text = "K"

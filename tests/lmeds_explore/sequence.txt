@@ -1,0 +1,33 @@
+*LMEDS_Explore
+login
+
+text_page first_page bindSubmitKeyIDList=space
+media_test audio apples
+
+consent demo_consent
+text_page boundary_and_prominence_intro
+text_page boundary_instructions1
+text_page boundary_instructions2
+text_page prominence_instructions1
+text_page prominence_instructions2
+text_page example
+boundary_and_prominence apples apples 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+text_page post_example
+
+boundary_and_prominence 3000-p02-l-ff_ch2_utt145 3000-p02-l-ff_ch2_utt145 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p02-l-ff_ch2_utt149 3000-p02-l-ff_ch2_utt149 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p02-l-ff_ch2_utt152 3000-p02-l-ff_ch2_utt152 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p02-l-ff_ch2_utt171 3000-p02-l-ff_ch2_utt171 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+
+boundary_and_prominence 3000-p21-l-ff_ch1_utt133 3000-p21-l-ff_ch1_utt133 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p21-l-ff_ch1_utt134 3000-p21-l-ff_ch1_utt134 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p21-l-ff_ch1_utt144 3000-p21-l-ff_ch1_utt144 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p21-l-ff_ch1_utt163 3000-p21-l-ff_ch1_utt163 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+
+boundary_and_prominence 3000-p06-l-ff_ch1_utt153 3000-p06-l-ff_ch1_utt153 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p06-l-ff_ch1_utt158 3000-p06-l-ff_ch1_utt158 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p06-l-ff_ch1_utt159 3000-p06-l-ff_ch1_utt159 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+boundary_and_prominence 3000-p06-l-ff_ch1_utt164 3000-p06-l-ff_ch1_utt164 2 -1 nonspecific_boundary_instr nonspecific_prominence_instr true minNumSelected=1
+
+text_page qualtrics
+end

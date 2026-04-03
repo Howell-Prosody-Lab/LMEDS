@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.7101
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "L - words"
+		xmin = 0.0
+		xmax = 1.7101
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.2101
+				text = "not"
+			intervals [3]:
+				xmin = 0.2101
+				xmax = 0.2801
+				text = ""
+			intervals [4]:
+				xmin = 0.2801
+				xmax = 0.6701
+				text = "following"
+			intervals [5]:
+				xmin = 0.6701
+				xmax = 0.9101
+				text = "that"
+			intervals [6]:
+				xmin = 0.9101
+				xmax = 1.5601
+				text = ""
+			intervals [7]:
+				xmin = 1.5601
+				xmax = 1.7101
+				text = "okay"
+	item [2]:
+		class = "IntervalTier"
+		name = "L - phones"
+		xmin = 0.0
+		xmax = 1.7101
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.0
+				xmax = 0.0001
+				text = ""
+			intervals [2]:
+				xmin = 0.0001
+				xmax = 0.0301
+				text = "N"
+			intervals [3]:
+				xmin = 0.0301
+				xmax = 0.1401
+				text = "AA1"
+			intervals [4]:
+				xmin = 0.1401
+				xmax = 0.2101
+				text = "T"
+			intervals [5]:
+				xmin = 0.2101
+				xmax = 0.2801
+				text = ""
+			intervals [6]:
+				xmin = 0.2801
+				xmax = 0.3101
+				text = "F"
+			intervals [7]:
+				xmin = 0.3101
+				xmax = 0.4101
+				text = "AA1"
+			intervals [8]:
+				xmin = 0.4101
+				xmax = 0.5301
+				text = "L"
+			intervals [9]:
+				xmin = 0.5301
+				xmax = 0.5701
+				text = "OW0"
+			intervals [10]:
+				xmin = 0.5701
+				xmax = 0.6201
+				text = "IH0"
+			intervals [11]:
+				xmin = 0.6201
+				xmax = 0.6701
+				text = "NG"
+			intervals [12]:
+				xmin = 0.6701
+				xmax = 0.7201
+				text = "DH"
+			intervals [13]:
+				xmin = 0.7201
+				xmax = 0.7601
+				text = "AE1"
+			intervals [14]:
+				xmin = 0.7601
+				xmax = 0.9101
+				text = "T"
+			intervals [15]:
+				xmin = 0.9101
+				xmax = 1.5601
+				text = ""
+			intervals [16]:
+				xmin = 1.5601
+				xmax = 1.6101
+				text = "OW2"
+			intervals [17]:
+				xmin = 1.6101
+				xmax = 1.6701
+				text = "K"
+			intervals [18]:
+				xmin = 1.6701
+				xmax = 1.7101
+				text = "EY1"
