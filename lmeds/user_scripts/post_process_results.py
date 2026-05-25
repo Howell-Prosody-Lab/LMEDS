@@ -161,6 +161,7 @@ def agglutinateSpreadsheets(csvFNList, outputFN):
 
 
 def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemList=None):
+    # string, string, bool, list of strings
 
     rootPath = join(constants.rootDir, "tests", testName)
     txtPath = join(rootPath, "txt")
@@ -194,7 +195,10 @@ def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemLis
         for fn, response in utils.safeZip([fnList, userResponseList], True):
             countDict.setdefault(len(response), [])
             countDict[len(response)].append(fn)
-
+            if (fn == 'mf11.csv' or fn == 'mf39.csv'):
+                print(fn, response)
+        #print(fnList[0:3])
+        print(userResponseList[0:3])
         keyList = list(countDict.keys())
         keyList.sort()
         for numLines in keyList:
@@ -204,22 +208,34 @@ def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemLis
     # Don't continue if pages are different
     pageNameList = [
         [(pageTuple[0], pageTuple[1]) for pageTuple in response]
+        # that is, (command, stimuliArgList) for test item in response
         for response in userResponseList
-    ]
+    ] #jesucristo did you just nest a list comprehension, why would you make me read that
     sameList = []
     fnListOfLists = []
     for fn, pageList in utils.safeZip([fnList, pageNameList], True):
         i = 0
+        #print(f"for fn {fn}:")
         while True:
+            #print(f"\tfor i={i}, len(sameList) = {len(sameList)}, same?")
             if len(sameList) == i:
+                #print("\t\tyes, len(sameList) == i, appending pageList to sameList, blank list to fnListOfLists")
                 sameList.append(pageList)
                 fnListOfLists.append([])
             else:
-                if sameList[i] == pageList:
+                #print(f"\t\tno, reached the else clause, len(sameList[i])={len(sameList[i])}, len(pageList)={len(pageList)}\n")
+                if str(sameList[i]).lower() == str(pageList).lower():
                     fnListOfLists[i].append(fn)
+                    #print(f"\t\t\tsameList[i] = pageList, now fnListOfLists[{i}] is {fnListOfLists[i]}\n")
                     break
                 else:
+                    #print("\t\t\tsameList[i] is not pageList, incrementing i\n")
+                    #print("\t\t\tSAMELIST[I]")
+                    #print(sameList[i])
+                    #print("\t\t\tPAGELIST")
+                    #print(pageList)
                     i += 1
+                    
 
     if len(sameList) == 0:
         print("ERROR: There don't appear to be any test data in folder %s" % pathToData)
@@ -230,7 +246,7 @@ def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemLis
             "ERROR: User data doesn't agree.  Filenames printed on "
             "different lines differ in their pages."
         )
-
+        print(fnList,'\n')
         for subFNList in fnListOfLists:
             print(", ".join(subFNList))
 
@@ -240,7 +256,7 @@ def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemLis
         pageName = pageTuple[0]
         if pageName not in uniquePageList:
             uniquePageList.append(pageName)
-
+    #print("Extracting", uniquePageList)
     extractFromTest(pathToData, uniquePageList, removeItemList)
 
     # Transpose the surveys
@@ -276,10 +292,10 @@ def postProcessResults(testName, sequenceFN, removeDuplicatesFlag, removeItemLis
             transpose_choice.transposeChoice(
                 join(pathToData, pageName), pageName, outputPath
             )
-
+    print("Results processed.")
 
 if __name__ == "__main__":
-
+    """
     description = "Verifies that the sequence file is well formed"
     parser = argparse.ArgumentParser(description=description)
 
@@ -334,6 +350,30 @@ if __name__ == "__main__":
     elif _remove_duplicates_flag.lower() == "false":
         _remove_duplicates_flag = False
 
+    postProcessResults(
+        _test_name, _sequence_fn, _remove_duplicates_flag, _remove_item_list
+    )
+    """
+    #postProcessResults('lmeds_explore', 'african_american_sequence.txt', True, ['apples'])
+    #postProcessResults('lmeds_explore', 'mainstream_sequence.txt', False)
+    from tkinter import filedialog, simpledialog
+    _test = filedialog.askdirectory(title="Select test")
+    _test_name = os.path.basename(_test)
+    print(_test_name)
+    _sequence_fn = simpledialog.askstring("Sequence file", "Enter the name of the sequence file")
+    print(_sequence_fn)
+    _remove_items_flag = simpledialog.askstring( "Remove items?",
+            "Would you like to remove any items "
+            "(e.g. sample/test items)? (yes/no):\n"
+        )
+    if _remove_items_flag.lower() == "yes":
+        _remove_item_list = simpledialog.askstring("Remove",
+            "Enter a list of stimuli names to " "remove (separated by a space):\n")
+        _remove_item_list = _remove_item_list.split(" ")
+    else:
+        _remove_item_list = []
+    _remove_duplicates_flag=True
+    print(_remove_item_list)
     postProcessResults(
         _test_name, _sequence_fn, _remove_duplicates_flag, _remove_item_list
     )
