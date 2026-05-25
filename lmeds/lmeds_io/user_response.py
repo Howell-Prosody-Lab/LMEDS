@@ -18,7 +18,7 @@ def loadUserResponse(fn):
 
     returnList = []
     for line in featureList:
-        if line == "":
+        if line == "" or 'qualtrics' in line:
             continue
 
         if line[-2:] == HEADER_DEMARCATOR:
