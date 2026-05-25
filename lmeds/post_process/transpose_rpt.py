@@ -17,9 +17,22 @@ from lmeds.utilities import utils
 P = "p"
 B = "b"
 
+def makeSameLength(tmpList):
+    #print("This is tmplist:")
+    #print(tmpList)
+    longest_list = len(max(tmpList, key=len))
+    #print(longest_list, "is longest_list")
+    newlist = [l+([""]*(longest_list-len(l))) for l in tmpList]
+    #print("This is newlist:")
+    #print(newlist)
+    try:
+        zipped = utils.safeZip(newlist, enforceLength=True)
+        return zipped
+    except:
+        raise
 
 def _transposeRPT(dataListOfLists):
-
+    #print("We're in _transposeRPT now")
     idKeyList = []
 
     # Load the data
@@ -59,8 +72,11 @@ def _transposeRPT(dataListOfLists):
             dataList = dataTxt.split(",")
 
             if taskName == "boundary_and_prominence":
-                lenOfData = int(len(dataList) / 2.0)
+                #print("boundary_and_prominence")
+                realDataList = [item for item in dataList if item != ""]
 
+                lenOfData = int(len(realDataList) / 2.0)
+                #print(lenOfData)
                 bScores = dataList[:lenOfData]
                 pScores = dataList[lenOfData:]
             elif taskName == "boundary":
@@ -85,7 +101,7 @@ def _transposeRPT(dataListOfLists):
 
             returnDict[stimuliID][B].append(bScores)
             returnDict[stimuliID][P].append(pScores)
-
+            #print("returnDict after fetching scores:",returnDict)
     # Transpose the data
     for sid in idKeyList:
         for taskType in [B, P]:
@@ -96,12 +112,12 @@ def _transposeRPT(dataListOfLists):
             if len(tmpList) == 0:
                 continue
             try:
-                zipped = utils.safeZip(tmpList, enforceLength=True)
+                zipped = makeSameLength(tmpList)
             except:
                 print("Problem with score type: %s, SID: %s" % (taskType, sid))
                 raise
             returnDict[sid][taskType] = [list(subTuple) for subTuple in zipped]
-
+    #print("returnDict after so-called transposition:",returnDict)
     return returnDict, idKeyList
 
 
@@ -292,7 +308,7 @@ def transposeRPT(path, txtPath, pageName, outputPath):
                 if word != ""
                 for syllable in word.split(demarcator)
             ]
-
+    #print("Created responseDataList, calling _transposeRPT")
     returnDict, idKeyList = _transposeRPT(responseDataList)
 
     doUserSeqHeader = len(orderListOfLists) > 0
@@ -312,6 +328,7 @@ def transposeRPT(path, txtPath, pageName, outputPath):
             stimulusIDList,
             wordList,
         ]
+        #print("aspectSumList:",aspectSumList)
         aspectList = []
 
         try:
@@ -322,7 +339,7 @@ def transposeRPT(path, txtPath, pageName, outputPath):
             pScoreList, pSumList = _getScores(returnDict[stimulusID], P)
         except KeyError:
             pass
-
+        #print("pScoreList:",pScoreList)
         if pageName == "boundary":
             aspectSumList.extend(
                 [
@@ -358,6 +375,7 @@ def transposeRPT(path, txtPath, pageName, outputPath):
                     pScoreList,
                 ]
             )
+            #print("aspectList:",aspectList)
 
         # Extend header with sequence order information
         if doUserSeqHeader:
@@ -371,8 +389,9 @@ def transposeRPT(path, txtPath, pageName, outputPath):
             )
 
         dataList = aspectSumList + aspectList
+        #print("dataList:",dataList)
         combinedList = [
-            _unifyRow(row) for row in utils.safeZip(dataList, enforceLength=True)
+            _unifyRow(row) for row in makeSameLength(dataList)
         ]
         aggrOutputList.extend([",".join(row) for row in combinedList])
 
